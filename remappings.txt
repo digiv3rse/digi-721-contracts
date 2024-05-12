@@ -1,4 +1,4 @@
-@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/contracts/
+@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/
 @openzeppelin/contracts/=node_modules/@openzeppelin/contracts/
 erc721a-upgradeable=lib/ERC721A-Upgradeable/contracts/
 base64/=lib/base64/
