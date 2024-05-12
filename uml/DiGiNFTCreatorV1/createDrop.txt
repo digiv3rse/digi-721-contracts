@@ -1,0 +1,19 @@
+@startuml
+actor Caller
+participant DiGiNFTCreatorV1
+participant ERC721Drop
+
+Caller -> ERC721Drop : createDrop()
+
+DiGiNFTCreatorV1 -> DiGiNFTCreatorV1 : initialize NFT metadata
+
+DiGiNFTCreatorV1 -> ERC721Drop : deploy
+
+DiGiNFTCreatorV1 -> ERC721Drop : initialize drop
+
+DiGiNFTCreatorV1 -> DiGiNFTCreatorV1 : emit CreatedDrop
+
+DiGiNFTCreatorV1 -> Caller : return drop contract address
+
+@enduml
+
