@@ -51,6 +51,7 @@
   },
   "dependencies": {
     "@dotenv/cli": "^2.2.2",
+    "erc721a-upgradeable": "^4.3.0",
     "@openzeppelin/contracts": "^4.5.0",
     "@openzeppelin/contracts-upgradeable": "^4.5.0",
     "@zoralabs/protocol-rewards": "^1.0.2",
